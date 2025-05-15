@@ -1,3 +1,3 @@
-Import-Module ./api.psm1
-# Hämtar skämt
-Write-Host (Chuck Norris hämtar skämt)
+Import-Module ./api.psm1  # Bara om du faktiskt har en modul du behöver
+
+Get-joke

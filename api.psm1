@@ -1,7 +1,5 @@
 # Funktion som hämtar ChuckNorrisSkämt
 function Get-joke {
-    $data = Invoke-RestMethod "https://api.chucknorris.io/jokes/random"
-    return $data.fact
+    $joke = Invoke-RestMethod "https://api.chucknorris.io/jokes/random"
+    $joke.value
 }
-
-
